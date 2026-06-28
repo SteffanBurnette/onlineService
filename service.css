@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+#container {
+    display: flex;
+    margin:0;
+    height: 100%;
+}
+
+#container-left,
+#container-right {
+    flex: 1;
+}
+
+#container-left {
+    background-image: url("beachBackground.jpg");
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left-img {
+
+    width: 30%;
+    height: 20%;
+}
+
+input{
+    margin-right: 20px;;
+}
+
+#description {
+    height: 25vh;
+}
+
+#form {
+    height: 25vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#createAccount {
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color:rgb(226, 218, 218);
+    
+}
